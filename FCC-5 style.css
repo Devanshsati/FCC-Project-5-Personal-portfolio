@@ -87,7 +87,7 @@ hr{
     grid-gap: 3rem;
     width: 100%;
     max-width: 1280px;
-    margin: 5rem auto;
+    margin: 5rem auto 3rem auto;
 }
 
 img{
@@ -119,10 +119,32 @@ img{
 }
 
 .btn-show-all {
-    display: inline-block;
-    margin: 0 auto;
-    position: absolute;    
-    left: 50%;
-    font-size: 1.5rem;
     background-color: #303841;
+    color: aliceblue;
+    text-decoration: none;
+    left: 46%;
+    display: inline-block;
+    position: absolute;
+    padding: 15px;
+    border-radius: 4px;
+    font-size: 1.5rem;
+    transition: background-color 0.5s ease-out;
 }
+
+.btn-show-all:hover {
+    background-color: #af1126;
+}
+
+.btn-show-all > a > i{
+    padding-right: 5px;
+}
+
+.btn-show-all > i {
+    margin-left: 10px;
+    transform: translateX(0);
+    transition: transform 0.3s ease-out;
+  }
+
+.btn-show-all:hover > i {
+    transform: translateX(2px);
+  }
