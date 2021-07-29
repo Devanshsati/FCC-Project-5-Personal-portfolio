@@ -160,9 +160,31 @@ img{
     text-align: center;
     width: 100%;
     height: 80vh;
-    padding: 0 2rem;
 }
 
-.link > h1{
+.link-header > h1{
     margin-bottom: 0.5rem;
+}
+
+.link-header > p{
+    font-size: 130%;
+}
+
+.details{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 4rem auto;
+    font-size: x-large;
+    flex-wrap: wrap;
+} 
+
+.details > a{
+    color: azure;
+    text-decoration: none;
+    padding: 0 20px 0 20px;
+}
+
+.details > a > i{
+    padding-right: 15px;
 }
