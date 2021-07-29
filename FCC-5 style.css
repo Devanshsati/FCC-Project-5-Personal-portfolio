@@ -28,12 +28,13 @@ nav{
     text-align: center;
     color: white;
     padding: 12px;
-    font-size: 85%;
+    font-size: 150%;
     text-decoration: none;
 }
 
 #navbar > a:hover{
     background-color: #615ac7;
+    transition: color 0.5s ease-out;
 }
 
 .welcome-section{
@@ -60,7 +61,7 @@ h2{
 }
 
 #project{
-    background-image: linear-gradient(45deg, #0066ff -20%, #000000 100%);
+    background-image: linear-gradient(45deg, #298992 -20%, #000000 100%);
 }
 
 #project > h1{
@@ -72,4 +73,41 @@ h2{
 
 hr{
     width: 60rem;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 3rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 5rem auto;
+}
+
+img{
+    width: 100%;
+    height: 80%;
+}
+
+.project-grid > a > p{
+    color: azure;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 10px;
+}
+  
+.project-grid > a , .code{
+    background-color: #303841;
+    text-decoration: none;
+}
+ 
+.code{
+    color: #303841;
+    padding: 0px 6px 0px 6px;
+    font-size: 1.7rem;
+    transition: color 0.5s ease-out;
+}
+
+.project:hover .code {
+        color: #fd4400;
 }
