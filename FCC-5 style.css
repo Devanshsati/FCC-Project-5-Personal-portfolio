@@ -20,25 +20,39 @@ nav{
     height: 9%;
     display: flex;
     justify-content: flex-end;
-    box-shadow: #181719;
 }
 
 #navbar > a{
-    width: 8%;
-    text-align: center;
     color: white;
-    padding: 12px;
+    padding: 1.2%;
+    display: flex;
     font-size: 150%;
     text-decoration: none;
+    justify-content: center;
+    align-items: center;
 }
 
 #navbar > a {
-    background-color: #af1126;
     transition: background-color 0.5s ease-out;
 }
 
 #navbar > a:hover{
     background-color: #000061;
+}
+
+
+#navbar > a > i{
+    padding-right: 15px;
+}
+
+#navbar > i {
+    margin-left: 10px;
+    transform: translateX(0);
+    transition: transform 0.3s ease-out;
+}
+
+#navbar:hover > i {
+    transform: translateX(2px);
 }
 
 .welcome-section{
@@ -123,13 +137,15 @@ img{
     background-color: #303841;
     color: aliceblue;
     text-decoration: none;
-    left: 46%;
-    display: inline-block;
-    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 15%;
     padding: 15px;
     border-radius: 4px;
     font-size: 1.5rem;
     transition: background-color 0.5s ease-out;
+    align-items: center;
 }
 
 .btn-show-all:hover {
@@ -137,6 +153,7 @@ img{
 }
 
 .btn-show-all > a > i{
+    display: flex;
     padding-right: 5px;
 }
 
