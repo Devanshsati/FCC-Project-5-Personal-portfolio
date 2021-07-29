@@ -32,9 +32,13 @@ nav{
     text-decoration: none;
 }
 
+#navbar > a {
+    background-color: #af1126;
+    transition: background-color 0.5s ease-out;
+}
+
 #navbar > a:hover{
-    background-color: #615ac7;
-    transition: color 0.5s ease-out;
+    background-color: #000061;
 }
 
 .welcome-section{
