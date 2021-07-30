@@ -91,7 +91,7 @@ h2{
     font-size: 3rem;
 }
 
-hr{
+.pro-hr{
     width: 60rem;
 }
 
@@ -204,4 +204,35 @@ img{
 
 .details > a > i{
     padding-right: 15px;
+}
+
+.foot-hr {
+    background: #af1126;
+    height: 10px;
+    width: 100%;
+    margin: 0;
+    border-style: none;
+}
+
+footer{
+    background-color: #303841;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: x-large;
+    height: 10vh;
+}
+
+footer > p{
+    margin: 0;
+    padding: 20px;
+}
+
+footer > p > a{
+    color: gold;
+}
+
+footer > p > a > i{
+    size: 20px;
+    padding-left: 10px;
 }
