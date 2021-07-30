@@ -1,0 +1,82 @@
+#navbar > a{
+    font-size: 125%;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+#project{
+    padding-bottom: 5rem;
+}
+
+#project > h1{
+    font-size: 2rem;
+    padding-top: 5rem;
+}
+
+.pro-hr{
+    width: 30rem;
+    margin-top: 1rem;
+}
+
+.project-grid{
+    margin: 3rem auto 3rem auto;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 2rem;
+    width: 100%;
+    max-width: 630px;
+}
+
+img{
+    width: 50%;
+    height: 40%;
+}
+
+.project-grid > a > p{
+    font-size: 1rem;
+}
+
+.code{
+    font-size: 1.3rem;
+    padding: 0px 3px 0px 3px;
+}
+
+.btn-show-all {
+    width: 30%;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+.link{
+    height: 65vh;
+}
+
+.link-header > p{
+    font-size: 100%;
+}
+
+.details{
+    margin: 2rem 0px 0px 0px;
+} 
+
+.details > a {
+    padding: 12px;
+}
+
+footer{
+    height: 13vh;
+    font-size: medium;
+}
+
+footer > p {
+    padding: 10px;
+}
+
+#footp1{
+    text-align: left;
+}
