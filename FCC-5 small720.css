@@ -24,11 +24,6 @@ h2{
     padding-top: 5rem;
 }
 
-.pro-hr{
-    width: 85%;
-    margin-top: 1rem;
-}
-
 .project-grid{
     margin: 3rem auto 3rem auto;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
