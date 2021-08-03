@@ -91,6 +91,7 @@ h2{
 
 .pro-hr{
     width: 85%;
+    position: relative;
 }
 
 .project-grid {
