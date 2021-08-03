@@ -71,10 +71,9 @@ h1{
 
 h2{
     color: #af1126;
-    font-weight: lighter;
     font-size: 2rem;
-    font-style: bold;
     font-style: italic;
+    font-weight: bold;
 }
 
 #project{
