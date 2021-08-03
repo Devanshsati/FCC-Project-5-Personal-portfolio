@@ -73,3 +73,11 @@ footer{
 footer > p {
     padding: 10px;
 }
+
+#footp1 {
+    font-size: smaller;
+}
+
+footer > p > a > i {
+    padding-left: 5px;
+}
