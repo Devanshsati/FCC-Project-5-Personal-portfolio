@@ -8,26 +8,26 @@
 }
 
 h1{
-    font-size: 2.5rem;
+    font-size: 200%;
 }
 
 h2{
-    font-size: 1.5rem;
+    font-size: 141%;
 }
 
 #project{
-    padding-bottom: 5rem;
+    padding-bottom: 20%;
 }
 
 #project > h1{
-    font-size: 1.5rem;
-    padding-top: 5rem;
+    padding-top: 20%;
+    font-size: 153%;
 }
 
 .project-grid{
-    margin: 3rem auto 3rem auto;
+    margin: 40px auto 40px auto;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    grid-gap: 2rem;
+    grid-gap: 30px;
 }
 
 img{
@@ -35,18 +35,19 @@ img{
 }
 
 .project-grid > a > p{
-    font-size: 0.8rem;
+    margin: 0px;
+    font-size: 90%;
 }
 
 .code{
-    font-size: 1rem;
-    padding: 0px 3px 0px 3px;
+    font-size: 115%;
+    padding: 0px 6px 0px 6px;
 }
 
 .btn-show-all {
-    width: 20%;
-    padding: 10px;
-    font-size: 1.2rem;
+    width: 30%;
+    padding: 8px;
+    font-size: 120%;
 }
 
 .link{
@@ -66,14 +67,9 @@ img{
 }
 
 footer{
-    height: 13vh;
-    font-size: medium;
+    font-size: 93%;
 }
 
 footer > p {
     padding: 10px;
-}
-
-#footp1{
-    text-align: left;
 }
