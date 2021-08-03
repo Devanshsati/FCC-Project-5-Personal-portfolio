@@ -1,0 +1,39 @@
+nav{
+    justify-content: flex-end;
+    height:9%;
+}
+
+#navbar > a{
+    padding: 2%;
+    font-size: 120%;
+}
+
+.pro-hr{
+    width: 22rem;
+    margin-top: 1rem;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+#project > h1{
+    font-size: 1.5rem;
+}
+
+img{
+    height: 75%;
+}
+
+.project-grid > a > p {
+    margin: 5px;
+}
+
+.btn-show-all {
+    width: 26%;
+}
+
+footer{
+height: 10vh;
+font-size: small;
+}
