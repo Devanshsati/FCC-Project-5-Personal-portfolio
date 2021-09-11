@@ -77,6 +77,30 @@ h2{
     font-style: italic;
     font-weight: bold;
 }
+
+.about{
+    background-color: #000061;
+    color: snow;
+    font-size: 22px;
+}
+
+.about > div{
+    padding: 0px 50px 50px 50px;
+}
+
+.about > div > h2{
+    font-style:normal;
+    text-decoration: underline;
+    color: #af1126;
+    margin-top: 0;
+}
+
+.me > h1{
+    margin: 0;
+    padding-top: 8%;
+    text-align: center;
+}
+
 /* #093353   #230064   #4A174F   #2E174F   #052339   #171C4F */
 #project{
     display: block;
